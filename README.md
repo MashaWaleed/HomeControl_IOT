@@ -1,5 +1,7 @@
 # ESP32 IoT Home Control System with Qt GUI
 
+![Header](./Assets/header.png)
+
 This project features an IoT home control system utilizing the ESP32 microcontroller and a Qt-based graphical user interface (GUI). The system allows remote monitoring and control of various home devices, ensuring convenience and efficiency.
 
 ## Features
