@@ -21,8 +21,8 @@ DFRobotDFPlayerMini myDFPlayer;
 #define GARAGE_PIN 27
 
 // WiFi credentials
-#define WIFI_SSID "WaleedWIFI"
-#define WIFI_PASSWORD "&n*80ghi_l9"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 // Server details
 #define SERVER_ADDRESS "192.168.1.10"
