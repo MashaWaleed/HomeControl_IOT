@@ -21,6 +21,9 @@ This project features an IoT home control system utilizing the ESP32 microcontro
 - **Various Sensors:** For measuring temperature, humidity, and carbon levels.
 - **CAN Bus Module:** For communication with other CAN-enabled devices.
 
+![esp](./Assets/esp.jpg)
+![terminal](./Assets/terminal.jpg)
+
 ## How to Use
 
 ### Setup the ESP32:
