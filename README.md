@@ -10,7 +10,6 @@ This project features an IoT home control system utilizing the ESP32 microcontro
 - **Device Control:** Control home devices such as air conditioners, lights, fans, and garage doors through the Qt GUI.
 - **DFPlayer Mini Integration:** Manage audio playback with play, pause, next, and previous track functionalities.
 - **WiFi Connectivity:** Seamless connection to a home WiFi network for remote control and monitoring.
-- **CAN Bus Communication:** Interface with a CAN bus for receiving and transmitting messages, applicable to automotive and home automation scenarios.
 - **Slider Controls:** Adjust settings such as air conditioner temperature with interactive sliders.
 
 ## Components
@@ -19,7 +18,6 @@ This project features an IoT home control system utilizing the ESP32 microcontro
 - **Qt GUI:** User-friendly interface for interacting with the home control system.
 - **DFPlayer Mini:** Audio playback module controlled via the ESP32.
 - **Various Sensors:** For measuring temperature, humidity, and carbon levels.
-- **CAN Bus Module:** For communication with other CAN-enabled devices.
 
 ![esp](./Assets/esp.jpg)
 ![terminal](./Assets/terminal.jpg)
@@ -28,11 +26,11 @@ This project features an IoT home control system utilizing the ESP32 microcontro
 
 ### Setup the ESP32:
 - Connect sensors and devices to the ESP32 as per the provided schematics.
-- Flash the ESP32 with the Arduino code available in this repository.
+- Flash the ESP32 with the  code available in this repository.
 
 ### Configure the Qt GUI:
 - Open the Qt project in Qt Creator.
-- Ensure the GUI is set up to communicate with the ESP32 over the specified serial port.
+- Ensure the GUI is set up to communicate with the ESP32 over the specified TCP port.
 
 ### Connect and Control:
 - Power on the ESP32 and ensure it connects to your WiFi network.
@@ -41,7 +39,7 @@ This project features an IoT home control system utilizing the ESP32 microcontro
 
 ## Repository Contents
 
-- **Arduino Code:** Contains the code to be flashed onto the ESP32.
+- **ESP Code:** Contains the code to be flashed onto the ESP32.
 - **Qt Project:** Includes all necessary files to set up and run the Qt GUI.
 - **Schematics:** Wiring diagrams for connecting sensors and devices to the ESP32.
 - **Images:** Icons and images used in the GUI.
