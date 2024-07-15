@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fa334fc2af40fbaab734.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TCP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-34252b13c39b6ba7a2cc.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-76794d4fdaeab1edaaaf.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-c8d645e5fa9fde6a765e.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-7e16be2207bd55cb1ecb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP-Debug-e06b85a546e9ac7483a7.json",
+					"name" : "appTCP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_autogen-Debug-2cfc8b71d9b210e13a8a.json",
+					"name" : "appTCP_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_autogen_timestamp_deps-Debug-53ce7d730faf5598a5dd.json",
+					"name" : "appTCP_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_qmlimportscan-Debug-53bc1d90159711f67164.json",
+					"name" : "appTCP_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_qmllint-Debug-89d9ab80f20e94a524bc.json",
+					"name" : "appTCP_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_qmllint_json-Debug-0c7c0aa460b54d984975.json",
+					"name" : "appTCP_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_qmllint_module-Debug-0d3d70cba7fdc92d9440.json",
+					"name" : "appTCP_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_qmltyperegistration-Debug-960c0f2adf4f9272390d.json",
+					"name" : "appTCP_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTCP_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTCP_tooling-Debug-87bebf1807d721d330ce.json",
+					"name" : "appTCP_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mw296/OneDrive/Documents/trials/build-TCP-Desktop_Qt_6_6_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/mw296/OneDrive/Documents/trials/TCP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

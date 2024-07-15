@@ -1,0 +1,287 @@
+[
+    {
+        "classes": [
+            {
+                "className": "CommunicationController",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "temperature",
+                        "notify": "temperatureChanged",
+                        "read": "getTemperature",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "humidity",
+                        "notify": "humidityChanged",
+                        "read": "getHumidity",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "carbon",
+                        "notify": "carbonChanged",
+                        "read": "getCarbon",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "float",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "doorBill",
+                        "notify": "doorBillChanged",
+                        "read": "getDoorBill",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "gate",
+                        "notify": "gateChanged",
+                        "read": "getGate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "clientsCount",
+                        "notify": "clientsCountChanged",
+                        "read": "getClientsCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "name": "volume",
+                        "notify": "volumeChanged",
+                        "read": "getVolume",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "CommunicationController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "name": "dataReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "temperature",
+                                "type": "float"
+                            }
+                        ],
+                        "name": "temperatureChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "humidity",
+                                "type": "float"
+                            }
+                        ],
+                        "name": "humidityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "carbon",
+                                "type": "float"
+                            }
+                        ],
+                        "name": "carbonChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "doorBill",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "doorBillChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "gate",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "gateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "count",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "clientsCountChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "volume",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "volumeChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "command",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "name": "sendCommand",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getTemperature",
+                        "returnType": "float"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getHumidity",
+                        "returnType": "float"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getCarbon",
+                        "returnType": "float"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getDoorBill",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getGate",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getClientsCount",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getVolume",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "incrementVol",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "decrementVol",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "handleNewConnection",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "handleReadyRead",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "socketDisconnected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "checkClientAlive",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CommunicationController.h",
+        "outputRevision": 68
+    }
+]
