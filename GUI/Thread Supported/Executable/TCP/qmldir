@@ -1,0 +1,4 @@
+module TCP
+typeinfo appTCP.qmltypes
+prefer :/TCP/
+

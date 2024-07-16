@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="/TCP/">
+    <file alias="main.qml">C:/Users/mw296/OneDrive/Documents/trials/TCP/main.qml</file>
+    <file alias="Images/bedroom.jpg">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/bedroom.jpg</file>
+    <file alias="Images/air-conditioner.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/air-conditioner.png</file>
+    <file alias="Images/brightness.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/brightness.png</file>
+    <file alias="Images/fan.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/fan.png</file>
+    <file alias="Images/door-bell.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/door-bell.png</file>
+    <file alias="Images/gate.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/gate.png</file>
+    <file alias="Images/spotify.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/spotify.png</file>
+    <file alias="Images/backward.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/backward.png</file>
+    <file alias="Images/forward.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/forward.png</file>
+    <file alias="Images/pause.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/pause.png</file>
+    <file alias="Images/play.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/play.png</file>
+    <file alias="Images/minus.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/minus.png</file>
+    <file alias="Images/plus.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/plus.png</file>
+    <file alias="Images/0.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/0.png</file>
+    <file alias="Images/1.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/1.png</file>
+    <file alias="Images/2.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/2.png</file>
+    <file alias="Images/3.png">C:/Users/mw296/OneDrive/Documents/trials/TCP/Images/3.png</file>
+  </qresource>
+</RCC>
+

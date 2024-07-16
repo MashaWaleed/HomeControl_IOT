@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Users/mw296/OneDrive/Documents/trials/build-TCP-Desktop_Qt_6_6_2_MinGW_64_bit-Debug
+-I
+C:/Qt/6.6.2/mingw_64/./qml
+--resource
+C:/Users/mw296/OneDrive/Documents/trials/build-TCP-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/.rcc/qmake_TCP.qrc
+--resource
+C:/Users/mw296/OneDrive/Documents/trials/build-TCP-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/.rcc/appTCP_raw_qml_0.qrc
+C:/Users/mw296/OneDrive/Documents/trials/TCP/main.qml
+--json
+C:/Users/mw296/OneDrive/Documents/trials/build-TCP-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/appTCP_qmllint.json
